@@ -10,9 +10,8 @@ html {
 body {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    font-size: 1.4rem;
     height: 100vh;
-
+    font-size: 1.2rem;
     position: relative;
 }
 .navbar {
@@ -43,7 +42,7 @@ body {
 
 .search {
     position: absolute;
-    top: 35%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%,-50%);
     width: 50%;
@@ -63,4 +62,25 @@ body {
 
 .search__input:hover {
     box-shadow: 0px 3px 11px -2px rgba(179, 177, 177, .8);
+}
+
+.search__buttons {
+    margin: 2.5rem auto;
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+}
+
+.search__btn:link,
+.search__btn:visited {
+    text-decoration: none;
+    color: #5F6368;
+    background-color: #f2f2f2;
+    padding: 1rem 2rem;
+    border-radius: .8rem;
+}
+
+.search__btn:hover,
+.search__btn:active {
+    background-color: #cccaca;
 }
